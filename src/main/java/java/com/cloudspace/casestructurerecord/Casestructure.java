@@ -43,4 +43,13 @@ public class Casestructure {
 	public void setServicesection(String servicesection) {
 		Servicesection = servicesection;
 	}
+	@Override
+	public String toString() {
+		return "Casestructure [Headersection=" + Headersection
+				+ ", Addresssection=" + Addresssection + ", Customersection="
+				+ Customersection + ", Policysection=" + Policysection
+				+ ", Discountsection=" + Discountsection + ", Servicesection="
+				+ Servicesection + "]";
+	}
+	
 }
